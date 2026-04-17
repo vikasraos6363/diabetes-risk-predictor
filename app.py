@@ -1,8 +1,3 @@
-import sys
-if sys.version_info >= (3, 12):
-    import distutils
-    import distutils.core
-    
 import streamlit as st
 import pandas as pd
 import joblib
